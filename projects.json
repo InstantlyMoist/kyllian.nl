@@ -1,0 +1,27 @@
+[
+    {
+        "title": "SpigotConsole",
+        "description": "An app that brings the console to your phone",
+        "href": "https://www.spigotmc.org/resources/spigotconsole-alpha-version.81115/"
+    },
+    {
+        "title": "xRay",
+        "description": "A server-sided xRay implementation for minecraft",
+        "href": "https://www.spigotmc.org/resources/xray.42228/"
+    },
+    {
+        "title": "KorteBroekAan",
+        "description": "An android app to see if you're able to wear short pants today",
+        "href": "https://play.google.com/store/apps/details?id=moldovo.kan_ik_een_korte_broek_aan"
+    },
+    {
+        "title": "Triple Problematiek",
+        "description": "An android app to help psychologists in their job",
+        "href": "https://www.swpbook.com/boeken/1/geestelijke-gezondheidszorg/2071/praktijkboek-triple-problematiek"
+    },
+    {
+        "title": "Een test project",
+        "description": "Dit is een test project om te laten zien dat het ook werkt op meerdere regels",
+        "href": ""
+    }
+]
