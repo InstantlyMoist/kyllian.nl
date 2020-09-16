@@ -4,7 +4,7 @@ let removalLength = 0;
 let flash = true;
 
 function updateMessage() {
-    let finalMessage = `I'm ${possible[current].substring(0, possible[current].length - removalLength)} ${flash ? "|" : ""}`;
+    let finalMessage = `I'm ${possible[current].substring(0, possible[current].length - removalLength)}${flash ? "|" : ""}`;
     document.getElementById("description").innerHTML = finalMessage;
 }
 
