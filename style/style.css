@@ -98,7 +98,16 @@ button p.buttonDescription {
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
+.icon {
+    position: absolute;
+    margin-top: 160px;
+}
+
+.icon img {
+    height: 32px;
+}
+
+@media only screen and (max-width: 800px) {
     .screenside {
         width: 100%;
     }
@@ -120,5 +129,8 @@ button p.buttonDescription {
     }
     button p {
         font-size: 16px;
+    }
+    .icon {
+        margin-top: 160px;
     }
 }
