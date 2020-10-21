@@ -40,6 +40,11 @@ a {
     flex-direction: row;
 }
 
+#projects a {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
 #header {
     display: flex;
     flex-direction: row;
@@ -87,6 +92,21 @@ a {
     font-size: 14px;
     opacity: 50%;
 }
+
+@keyframes fadeInTop {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }
+ 
+ .fadeInTop {
+    animation-name: fadeInTop;
+ }
 
 @media only screen and (max-width: 800px) {
     #content {

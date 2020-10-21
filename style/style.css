@@ -106,6 +106,30 @@ button p.buttonDescription {
 .icon img {
     height: 32px;
 }
+ 
+ @keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }
+ 
+ .fadeInRight {
+    animation-name: fadeInRight;
+ }
+
+ #buttoncontainer button {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+ }
+
+ #buttoncontainer #hire {
+     animation-delay: 0.5s;
+ }
 
 @media only screen and (max-width: 800px) {
     .screenside {
