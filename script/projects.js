@@ -1,9 +1,6 @@
-// TODO: Actually init everything
-
 init();
 
 async function init() {
-    //TODO: Load all data
     const fileRead = await fetch("./projects.json");
     const json = await fileRead.json();
     let finalHTML = '';
@@ -21,5 +18,9 @@ function getParsedHTML(project) {
                     <p id="description">${project.description}</p>
                 </div>
             </a>`
+}
+
+function home() {
+    window.location.href = "index.html";
 }
 
