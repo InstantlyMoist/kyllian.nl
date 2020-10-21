@@ -23,5 +23,10 @@
         "title": "Instagram Bot",
         "description": "An instagram bot that posts a meme every 30 minutes",
         "href": "https://www.instagram.com/gecrepeerd/"
+    },
+    {
+        "title": "Captcha",
+        "description": "A server-sided anti-bot system solution for your minecraft server",
+        "href": "https://www.spigotmc.org/resources/captcha.75891/"
     }
 ]
