@@ -24,6 +24,6 @@ function getParsedHTML(project) {
 }
 
 function home() {
-    window.location.href = "index.html";
+    window.location.href = "/";
 }
 
