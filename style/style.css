@@ -98,12 +98,18 @@ button p.buttonDescription {
     color: white;
 }
 
-.icon {
-    position: absolute;
-    margin-top: 160px;
+#textcontainer #description {
+    margin-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
 }
 
 .icon img {
+    margin-right: 8px;
     height: 32px;
 }
  
@@ -154,7 +160,7 @@ button p.buttonDescription {
     button p {
         font-size: 16px;
     }
-    .icon {
-        margin-top: 95vh;
+    .icon img {
+        height: 24px;
     }
 }
