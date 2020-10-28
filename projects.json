@@ -33,5 +33,10 @@
         "title": "Whatsapp Meme Bot",
         "description": "A whatsapp meme bot written in NodeJS",
         "href": "https://github.com/InstantlyMoist/whatsapp-meme-bot"
+    },
+    {
+        "title": "Webhost for Spigot",
+        "description": "Host a website inside your Spigot server",
+        "href": "https://www.spigotmc.org/resources/webhost-for-spigot.85250/"
     }
 ]
