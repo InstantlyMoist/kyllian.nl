@@ -100,6 +100,11 @@ button p.buttonDescription {
 
 #textcontainer #description {
     margin-bottom: 20px;
+    color: #65F3D2;
+}
+
+#row {
+    display: flex;
 }
 
 .icons {

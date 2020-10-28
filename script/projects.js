@@ -12,7 +12,7 @@ async function init() {
     });
     document.getElementById("projects").innerHTML = finalHTML;
 }
-
+ 
 function getParsedHTML(project) {
     return `
     <a href="${project.href}" class="fadeInTop" style="animation-delay:${offset}s">
